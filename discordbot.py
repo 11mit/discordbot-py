@@ -99,5 +99,5 @@ async def on_member_remove(member):
     join = discord.Embed(title=f"<@{member.id}> 님이 퇴장하셨어요!", description=f"**Server Name** : HAEZONE\n**Member ID**: {member.id}\n**Member Tag** : {member}", color=random_color)
     await bot.get_channel(1168044711169228830).send(embed=join)
 
-bot.run("MTE3ODE3NTcwNDQzNzkwMzQ0MA.GMFQOE.spQ3GhMU5JVyWJjj2qKL_fGlYVz7QHDwRnB23g")
+bot.run("MTE3ODIyOTM3OTMxOTQ4MDMzMA.Go3fgB.7fycm-jKGrNhK8n9zbYcGKTxd3r2TKcVI-zqwc")
 
